@@ -44,21 +44,51 @@ console.log(alternateRicksArray);
 // Q1.3
 // How many Ricks have been named in alternateRicks?
 
-const reekymartins
-for(let i=0;i< alternateRicksArray.length;i++)
-  {
-
+let numberOfRicks = 0;               //**couldnt get this one! :() */
+for (let i = 0; i < alternateRicksArray.length; i++) {
+  if (alternateRicksArray[i].includes('Rick')) {
+    numberOfRicks += 1;
   }
-
+}
 // Q1.4
 // How many characters are there in rickSaying (without spaces)?
+
+const newSaying = rickSaying.replace(/\s/g, "")
+console.log(newSaying.length);
 
 // Q1.4
 // Morty doesn't actually have a middle name. Console Morty's name without "Antoine".
 
+const realMorty = grandson.replace(' Antoine','');
+console.log(realMorty);
+
 // Q1.5
 // Decode and console. the secret!
 // To do so, you will need to remove all of the notCode words.
+
+
+const secret =
+  "summerlobaconokfamily ascaryt mintergalactice, I'jerrym Pimortybethckle Rick!";
+const notCode = [
+  'summer',
+  'bacon',
+  'scary',
+  'intergalactic',
+  'jerry',
+  'morty',
+  'beth',
+  'family',
+];
+
+
+/*number of items in array: i= 7* or use code length*/
+
+let theBigReveal = secret;
+for (let i = 0; i <notCode.length;i++)
+      {theBigReveal = theBigReveal.replace(notCode[i], '');
+      }
+      console.log(theBigReveal)
+
 
 // Q1.6 (Stretch Goal)
 // Scary Terry is actually not an enemy. Remove him from the list and console only Rick's true enemies.
