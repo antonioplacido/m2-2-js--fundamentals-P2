@@ -11,3 +11,25 @@
 
 // Q3.3
 // Would this work with more integers?
+
+
+let num1 = 3
+let num2 = 8
+
+function max(num1, num)
+{if(num1 > num2){return num1} else {return num2}
+}
+
+console.log(max(num1,num2));
+
+/*see previous question answer*/
+
+let num3 = 100000000000000000
+let num4 = 48415
+
+let result = Math.max(num1,num2,num3,num4);
+console.log(result)
+
+
+
+/*              Use the Math.max to win???     */
