@@ -18,3 +18,12 @@ const myArray = [
 
 console.log(itemIsPresent(myArray, 'funky')); // true
 console.log(itemIsPresent(myArray, 'elephant')); // false
+
+
+/**/
+
+
+
+for(let i=0;i< myArray.length; i++ )
+        {total += itemIsPresent[i];}
+
