@@ -13,3 +13,22 @@
 // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]
 
 // Try with other values as well
+
+
+function calculateAverage(grades) {
+    const total = 0;    
+    const avg = grades(function (number)
+    
+    //*this part i could never get  *//
+    
+    grades.forEach(function (grade) {
+        sum += grade;
+    /*I              */
+    
+    return Math.trunc(total / grades.length);
+    }
+    
+    console.log(calculateAverage([76, 60, 83, 100, 78]));
+    
+    
+    
