@@ -17,4 +17,3 @@ return Math.trunc(gradesum / grades.length);
 console.log(calculateAverage([76, 60, 83, 100, 78]));
 
 
-//*this part i could never get  *//
