@@ -3,18 +3,18 @@
 // The returned average should also be rounded to the nearest unit. (no decimals, please!)
 
 function calculateAverage(grades) {
-const total = 0;    
-const avg = grades(function (number)
+let gradesum = 0;    
+
 
 //*this part i could never get  *//
-
 grades.forEach(function (grade) {
-    sum += grade;
-/*I              */
+    gradesum += grade;});
+/*                                */
 
-return Math.trunc(total / grades.length);
+return Math.trunc(gradesum / grades.length);
 }
 
 console.log(calculateAverage([76, 60, 83, 100, 78]));
 
 
+//*this part i could never get  *//
