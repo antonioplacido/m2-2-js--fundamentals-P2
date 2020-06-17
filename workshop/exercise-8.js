@@ -7,8 +7,16 @@
 // Adds "Hello " to every element of greet
 // For example: greet(["bob", "eric"]) returns ["Hello bob", "Hello eric"]
 
+
+const msg = "Hi ";
+
 function greet(lst) {
-  // lst is an array of strings
+    const greeting = lst.map(function (name) {
+  return `${msg}${name}`;  
+});
 }
+//I KEEP GETTING UNDEFINED!
 // -------------------------------------------------------------------------
 console.log('Q6 greet()', greet(['David', 'Billy', 'Lisa', 'Jennifer']));
+
+
