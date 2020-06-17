@@ -31,11 +31,24 @@ const notCode = [
 // Q1.1
 // How many names does Morty have? (use grandson)
 
+const numNamesMorty = (grandson.split(' ')).length;
+console.log(numNamesMorty);
+
+
 // Q1.2
 // Convert the alternateRicks string to an array. Console that array.
 
+const alternateRicksArray = alternateRicks.split(', ');
+console.log(alternateRicksArray);
+
 // Q1.3
 // How many Ricks have been named in alternateRicks?
+
+const reekymartins
+for(let i=0;i< alternateRicksArray.length;i++)
+  {
+
+  }
 
 // Q1.4
 // How many characters are there in rickSaying (without spaces)?
